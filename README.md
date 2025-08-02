@@ -15,6 +15,7 @@ This project implements an AI-powered code documentation generator using GPT-2 w
 - [Technical Details](#technical-details)
 - [Limitations and Future Improvements](#limitations-and-future-improvements)
 - [Contributing](#contributing)
+- [License](#license)
 
 ## Features
 - Automatic documentation generation for Python code snippets
@@ -49,6 +50,7 @@ AI_Code_Documentation_Generator/
 │   └── Deployment_Image.png   # UI screenshot
 ├── main.py                    # Main training script
 ├── requirements.txt           # Project dependencies
+├── LICENSE                    # MIT License
 └── README.md                  # Project documentation
 ```
 
@@ -56,11 +58,8 @@ AI_Code_Documentation_Generator/
 
 1. Clone the repository:
 ```bash
-   git clone --no-checkout https://github.com/HimadeepRagiri/ML-and-DL-Projects.git
-   cd ML-and-DL-Projects
-   git sparse-checkout init --cone
-   git sparse-checkout set NLP_Projects/AI_Code_Documentation_Generator
-   cd NLP_Projects/AI_Code_Documentation_Generator
+   git clone https://github.com/HimadeepRagiri/AI_Code_Documentation_Generator.git
+   cd AI_Code_Documentation_Generator
 ```
 
 2. Create a virtual environment (optional but recommended):
@@ -200,6 +199,10 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 ⭐ If you find this project useful, please consider giving it a star on GitHub!
